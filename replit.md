@@ -13,10 +13,15 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
 
 ## Features
 
+### Navigation Bar
+- Fixed top navigation with dark theme
+- "#1 FREE LEAKS" logo on the left
+- "Join Discord" and "Join Telegram" CTA buttons on the right
+- Smooth backdrop blur effect
+
 ### Hero Section
 - Large, bold "#1 FREE LEAKS" heading in accent color (#87CEEB)
 - "Best prices on the market" subheading
-- Two prominent CTA buttons: "Join Discord" and "Join Telegram"
 - Smooth fade-in and slide-up animations on scroll
 - Compact layout for quick user engagement
 
