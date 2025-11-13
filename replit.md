@@ -15,7 +15,7 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
 
 ### Entry Popup
 - Automatic popup that appears 3 seconds after page load
-- Displays "Access to +15 OF Models" with subline "(Content Updated Every Week)"
+- Displays "Access to +27 OF Models" with subline "(Content Updated Every Week)"
 - Shows Premium Pack pricing with all three tiers
 - Close functionality via X button, clicking outside, or Escape key
 - "Upgrade Now" buttons scroll to Premium Pack section
@@ -59,7 +59,7 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
 - Light blue chevron icons that rotate on expand
 
 ### Model Gallery
-- **15 unique model cards** displayed in a responsive grid
+- **27 unique model cards** displayed in a responsive grid
   - 2 columns on mobile
   - 3 columns on tablet
   - 4 columns on desktop
@@ -178,12 +178,12 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
     - Smooth expand/collapse animations with rotating chevron icons
     - Scroll-triggered fade-in animations
     - Hover effects for better user interaction
-  - **Reduced gallery to 15 unique model cards**
-    - Removed duplicates from original 30 cards, then further refined
-    - Removed 5 additional models (Sophia, Harper, Aria, Lily, Chloe) as requested
-    - All 15 images are now unique with no repetition
-    - Updated entry popup text to show "+15 OF Models"
-    - Ensures clean presentation without repeated images
+  - **Expanded gallery to 27 unique model cards**
+    - Initially reduced from 30 to 15 by removing duplicates
+    - Added 12 new unique models as requested
+    - All 27 images are unique with no repetition
+    - Updated entry popup text to show "+27 OF Models"
+    - Includes models: Emma, Olivia, Ava, Isabella, Mia, Charlotte, Amelia, Evelyn, Luna, Scarlett, Madison, Layla, Zoe, Grace, Victoria, Sophia, Harper, Aria, Lily, Chloe, Natalie, Ruby, Aurora, Hazel, Willow, Violet, Penelope
 
 ## Future Enhancements
 - Add actual payment integration (Stripe/PayPal)
