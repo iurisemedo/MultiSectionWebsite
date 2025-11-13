@@ -45,7 +45,6 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
 - Images display completely without cropping, using dark letterbox background for consistency
 
 ### Premium Upgrade Modal
-- Accessible via navigation bar button
 - Full-screen overlay modal with 3 symmetrical pricing tiers:
   - **Weekly**: €6.99/week
   - **Monthly**: €19.99/month (highlighted as "POPULAR")
