@@ -18,6 +18,18 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
 - "Best prices on the market" subheading
 - Two prominent CTA buttons: "Join Discord" and "Join Telegram"
 - Smooth fade-in and slide-up animations on scroll
+- Compact layout for quick user engagement
+
+### Premium Access Pack Section
+- Dedicated section between hero and gallery
+- Displays three pricing tiers in compact grid:
+  - **Weekly**: €6.99/week
+  - **Monthly**: €19.99/month (highlighted as "POPULAR")
+  - **Lifetime**: €59.99 (one-time payment)
+- Clear value proposition: "Unlock unlimited access to all models + custom requests"
+- "Upgrade Now" button opens full premium modal
+- Dark gradient backgrounds with accent highlights
+- Responsive layout (stacks on mobile, grid on desktop)
 
 ### Model Gallery
 - **30 model cards** displayed in a responsive grid
