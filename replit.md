@@ -15,7 +15,7 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
 
 ### Entry Popup
 - Automatic popup that appears 3 seconds after page load
-- Displays "Access to +50 OF Models" with subline "(Content Updated Every Week)"
+- Displays "Access to +20 OF Models" with subline "(Content Updated Every Week)"
 - Shows Premium Pack pricing with all three tiers
 - Close functionality via X button, clicking outside, or Escape key
 - "Upgrade Now" buttons scroll to Premium Pack section
@@ -59,7 +59,7 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
 - Light blue chevron icons that rotate on expand
 
 ### Model Gallery
-- **30 model cards** displayed in a responsive grid
+- **20 unique model cards** displayed in a responsive grid
   - 2 columns on mobile
   - 3 columns on tablet
   - 4 columns on desktop
@@ -71,6 +71,7 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
 - Hover effects with elevation and shadow
 - Scroll-triggered fade-in animations for each card
 - Images display completely without cropping, using dark letterbox background for consistency
+- All images are unique with no repetition
 
 ### Premium Upgrade Modal
 - Full-screen overlay modal with 3 symmetrical pricing tiers:
@@ -167,8 +168,8 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
     - Auto-shows to capture visitor attention
     - Multiple close options for user convenience
     - Links to Premium Pack section on page
-  - **Added "Access Now" buttons to all 30 model cards**
-    - Each card now has a light blue button that scrolls to Premium Pack section
+  - **Added "Access Now" buttons to all model cards**
+    - Each card has a light blue button that scrolls to Premium Pack section
     - Consistent call-to-action across all models
     - Replaces hidden pricing structure for cleaner design
   - **Added FAQ Section with accordion design**
@@ -177,6 +178,11 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
     - Smooth expand/collapse animations with rotating chevron icons
     - Scroll-triggered fade-in animations
     - Hover effects for better user interaction
+  - **Reduced gallery to 20 unique model cards**
+    - Removed duplicates from original 30 cards
+    - All 20 images are now unique with no repetition
+    - Updated entry popup text to show "+20 OF Models"
+    - Ensures clean presentation without repeated images
 
 ## Future Enhancements
 - Add actual payment integration (Stripe/PayPal)
