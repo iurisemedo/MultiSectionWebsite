@@ -14,7 +14,9 @@
                 extend: {
                     colors: {
                         'accent': '#87CEEB',
-                        'bg-primary': '#FAFAFA'
+                        'bg-primary': '#0F172A',
+                        'bg-secondary': '#1E293B',
+                        'bg-card': '#334155'
                     },
                     fontFamily: {
                         'poppins': ['Poppins', 'sans-serif'],
@@ -33,8 +35,8 @@
         
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #FAFAFA;
-            color: #000000;
+            background-color: #0F172A;
+            color: #F1F5F9;
         }
         
         .animate-on-scroll {
@@ -72,7 +74,7 @@
         
         .model-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 10px 25px rgba(135, 206, 235, 0.3);
         }
         
         .pricing-card {
@@ -87,11 +89,11 @@
 </head>
 <body>
     <!-- Navigation Bar -->
-    <nav class="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm shadow-sm z-50">
+    <nav class="fixed top-0 left-0 right-0 bg-bg-secondary/95 backdrop-blur-sm shadow-lg border-b border-gray-700 z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
                 <div class="font-poppins text-xl font-bold text-accent">#1 FREE LEAKS</div>
-                <button onclick="openPremiumModal()" class="bg-accent text-white px-6 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                <button onclick="openPremiumModal()" class="bg-accent text-gray-900 px-6 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                     Premium Access
                 </button>
             </div>
@@ -104,14 +106,14 @@
             <h1 class="font-poppins text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-accent mb-6 animate-on-scroll">
                 #1 FREE LEAKS
             </h1>
-            <h2 class="font-poppins text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black mb-12 animate-on-scroll">
+            <h2 class="font-poppins text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-12 animate-on-scroll">
                 Best prices on the market
             </h2>
             <div class="flex flex-col sm:flex-row gap-4 justify-center items-center animate-on-scroll">
-                <a href="#discord-link" class="bg-accent text-white px-8 py-4 rounded-full font-inter font-semibold text-lg hover:bg-opacity-90 transition-all shadow-lg w-full sm:w-auto">
+                <a href="#discord-link" class="bg-accent text-gray-900 px-8 py-4 rounded-full font-inter font-semibold text-lg hover:bg-opacity-90 transition-all shadow-lg w-full sm:w-auto">
                     Join Discord
                 </a>
-                <a href="#telegram-link" class="bg-accent text-white px-8 py-4 rounded-full font-inter font-semibold text-lg hover:bg-opacity-90 transition-all shadow-lg w-full sm:w-auto">
+                <a href="#telegram-link" class="bg-accent text-gray-900 px-8 py-4 rounded-full font-inter font-semibold text-lg hover:bg-opacity-90 transition-all shadow-lg w-full sm:w-auto">
                     Join Telegram
                 </a>
             </div>
@@ -127,7 +129,7 @@
                     type="text" 
                     id="searchInput" 
                     placeholder="Search models..." 
-                    class="w-full px-6 py-4 rounded-full border-2 border-gray-200 focus:border-accent focus:outline-none font-inter text-lg shadow-sm"
+                    class="w-full px-6 py-4 rounded-full border-2 border-gray-600 bg-bg-secondary text-white placeholder-gray-400 focus:border-accent focus:outline-none font-inter text-lg shadow-sm"
                     onkeyup="filterModels()"
                 />
             </div>
@@ -135,360 +137,360 @@
             <!-- Model Grid -->
             <div id="modelGrid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 <!-- Model Card 1 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Sophia">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Sophia">
                     <img src="attached_assets/Meet the beautiful @izzygreennxo Penthouse Pet of March 2025_1763065693814.jpg" alt="Sophia" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Sophia</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Sophia</h3>
                         <p class="text-accent font-bold text-xl mb-3">€9.99</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Model Card 2 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Emma">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Emma">
                     <img src="attached_assets/Will you be my hugh_1763065693814.jpg" alt="Emma" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Emma</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Emma</h3>
                         <p class="text-accent font-bold text-xl mb-3">€12.99</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Model Card 3 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Olivia">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Olivia">
                     <img src="attached_assets/🤍🧸_1763065693815.jpg" alt="Olivia" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Olivia</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Olivia</h3>
                         <p class="text-accent font-bold text-xl mb-3">€8.99</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Model Card 4 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Ava">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Ava">
                     <img src="attached_assets/Selfini 🤌🏼_1763065693815.jpg" alt="Ava" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Ava</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Ava</h3>
                         <p class="text-accent font-bold text-xl mb-3">€11.99</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Model Card 5 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Isabella">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Isabella">
                     <img src="attached_assets/chilling_1763065693815.jpg" alt="Isabella" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Isabella</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Isabella</h3>
                         <p class="text-accent font-bold text-xl mb-3">€14.99</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Model Card 6 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Mia">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Mia">
                     <img src="attached_assets/328667075_150002367854227_3591806597226174036_n_1763065780374.jpg" alt="Mia" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Mia</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Mia</h3>
                         <p class="text-accent font-bold text-xl mb-3">€7.99</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Model Card 7 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Charlotte">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Charlotte">
                     <img src="attached_assets/💋_1763065693816.jpg" alt="Charlotte" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Charlotte</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Charlotte</h3>
                         <p class="text-accent font-bold text-xl mb-3">€10.99</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Model Card 8 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Amelia">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Amelia">
                     <img src="attached_assets/384801120_18034087123588228_281993011514175222_n_1763065711200.jpg" alt="Amelia" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Amelia</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Amelia</h3>
                         <p class="text-accent font-bold text-xl mb-3">€13.99</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Model Card 9 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Harper">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Harper">
                     <img src="attached_assets/464753298_1076440744149311_3496033627396958515_n_1763065722691.jpg" alt="Harper" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Harper</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Harper</h3>
                         <p class="text-accent font-bold text-xl mb-3">€9.49</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Model Card 10 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Evelyn">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Evelyn">
                     <img src="attached_assets/409218975_3640581796230384_2942988806707068043_n_1763065761569.jpg" alt="Evelyn" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Evelyn</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Evelyn</h3>
                         <p class="text-accent font-bold text-xl mb-3">€11.49</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Model Card 11 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Luna">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Luna">
                     <img src="attached_assets/306474122_466557142038920_1411464161306030282_n_1763065752673.jpg" alt="Luna" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Luna</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Luna</h3>
                         <p class="text-accent font-bold text-xl mb-3">€8.49</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Model Card 12 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Aria">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Aria">
                     <img src="attached_assets/424779992_1355554261992603_8109237372754434431_n_1763065742364.jpg" alt="Aria" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Aria</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Aria</h3>
                         <p class="text-accent font-bold text-xl mb-3">€12.49</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Model Card 13 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Scarlett">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Scarlett">
                     <img src="attached_assets/424779992_1355554261992603_8109237372754434431_n_1763065742364.jpg" alt="Scarlett" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Scarlett</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Scarlett</h3>
                         <p class="text-accent font-bold text-xl mb-3">€15.99</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Model Card 14 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Lily">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Lily">
                     <img src="attached_assets/328667075_150002367854227_3591806597226174036_n_1763065780374.jpg" alt="Lily" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Lily</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Lily</h3>
                         <p class="text-accent font-bold text-xl mb-3">€10.49</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Model Card 15 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Madison">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Madison">
                     <img src="attached_assets/125022766_836021163822341_5297927121640814616_n_1763065790640.jpg" alt="Madison" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Madison</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Madison</h3>
                         <p class="text-accent font-bold text-xl mb-3">€13.49</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Model Card 16 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Chloe">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Chloe">
                     <img src="attached_assets/284290210_1183578522461720_653547715518748219_n_1763065808711.jpg" alt="Chloe" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Chloe</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Chloe</h3>
                         <p class="text-accent font-bold text-xl mb-3">€11.99</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Model Card 17 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Layla">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Layla">
                     <img src="attached_assets/453108428_1206565070517632_1212159333294228419_n_1763065820274.jpg" alt="Layla" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Layla</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Layla</h3>
                         <p class="text-accent font-bold text-xl mb-3">€9.99</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Model Card 18 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Zoe">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Zoe">
                     <img src="attached_assets/482171251_18505479910034778_5443552186395676734_n_1763065828353.jpg" alt="Zoe" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Zoe</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Zoe</h3>
                         <p class="text-accent font-bold text-xl mb-3">€14.49</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Model Card 19 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Grace">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Grace">
                     <img src="attached_assets/279059782_1637957693207591_9015298790783162072_n_1763065836659.jpg" alt="Grace" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Grace</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Grace</h3>
                         <p class="text-accent font-bold text-xl mb-3">€12.99</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Model Card 20 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Victoria">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Victoria">
                     <img src="attached_assets/Meet the beautiful @izzygreennxo Penthouse Pet of March 2025_1763065693814.jpg" alt="Victoria" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Victoria</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Victoria</h3>
                         <p class="text-accent font-bold text-xl mb-3">€10.99</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Model Card 21 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Hannah">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Hannah">
                     <img src="attached_assets/Will you be my hugh_1763065693814.jpg" alt="Hannah" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Hannah</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Hannah</h3>
                         <p class="text-accent font-bold text-xl mb-3">€8.99</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Model Card 22 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Ella">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Ella">
                     <img src="attached_assets/🤍🧸_1763065693815.jpg" alt="Ella" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Ella</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Ella</h3>
                         <p class="text-accent font-bold text-xl mb-3">€11.49</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Model Card 23 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Aurora">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Aurora">
                     <img src="attached_assets/Selfini 🤌🏼_1763065693815.jpg" alt="Aurora" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Aurora</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Aurora</h3>
                         <p class="text-accent font-bold text-xl mb-3">€13.99</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Model Card 24 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Hazel">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Hazel">
                     <img src="attached_assets/chilling_1763065693815.jpg" alt="Hazel" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Hazel</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Hazel</h3>
                         <p class="text-accent font-bold text-xl mb-3">€9.49</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Model Card 25 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Violet">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Violet">
                     <img src="attached_assets/284290210_1183578522461720_653547715518748219_n_1763065808711.jpg" alt="Violet" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Violet</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Violet</h3>
                         <p class="text-accent font-bold text-xl mb-3">€7.49</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Model Card 26 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Penelope">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Penelope">
                     <img src="attached_assets/💋_1763065693816.jpg" alt="Penelope" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Penelope</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Penelope</h3>
                         <p class="text-accent font-bold text-xl mb-3">€15.49</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Model Card 27 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Nova">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Nova">
                     <img src="attached_assets/384801120_18034087123588228_281993011514175222_n_1763065711200.jpg" alt="Nova" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Nova</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Nova</h3>
                         <p class="text-accent font-bold text-xl mb-3">€12.49</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Model Card 28 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Stella">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Stella">
                     <img src="attached_assets/464753298_1076440744149311_3496033627396958515_n_1763065722691.jpg" alt="Stella" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Stella</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Stella</h3>
                         <p class="text-accent font-bold text-xl mb-3">€10.49</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Model Card 29 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Ivy">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Ivy">
                     <img src="attached_assets/409218975_3640581796230384_2942988806707068043_n_1763065761569.jpg" alt="Ivy" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Ivy</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Ivy</h3>
                         <p class="text-accent font-bold text-xl mb-3">€14.99</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Model Card 30 -->
-                <div class="model-card bg-white rounded-2xl overflow-hidden shadow-md animate-on-scroll" data-name="Ruby">
+                <div class="model-card bg-bg-secondary rounded-2xl overflow-hidden shadow-lg border border-gray-700 animate-on-scroll" data-name="Ruby">
                     <img src="attached_assets/306474122_466557142038920_1411464161306030282_n_1763065752673.jpg" alt="Ruby" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-inter font-semibold text-lg mb-2">Ruby</h3>
+                        <h3 class="font-inter font-semibold text-lg mb-2 text-white">Ruby</h3>
                         <p class="text-accent font-bold text-xl mb-3">€8.49</p>
-                        <a href="#model-purchase-link" class="block text-center bg-accent text-white py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
+                        <a href="#model-purchase-link" class="block text-center bg-accent text-gray-900 py-2 rounded-full font-inter font-medium hover:bg-opacity-90 transition-all">
                             Buy Now
                         </a>
                     </div>
@@ -500,17 +502,17 @@
     <!-- Premium Modal -->
     <div id="premiumModal" class="modal">
         <div class="max-w-6xl mx-auto px-4 py-20">
-            <div class="bg-white rounded-3xl p-8 md:p-12 relative">
-                <button onclick="closePremiumModal()" class="absolute top-4 right-4 text-4xl text-gray-400 hover:text-gray-600 w-10 h-10 flex items-center justify-center">
+            <div class="bg-bg-secondary rounded-3xl p-8 md:p-12 relative border border-gray-700 shadow-2xl">
+                <button onclick="closePremiumModal()" class="absolute top-4 right-4 text-4xl text-gray-400 hover:text-accent w-10 h-10 flex items-center justify-center transition-colors">
                     &times;
                 </button>
                 
-                <h2 class="font-poppins text-4xl md:text-5xl font-bold text-center mb-6 animate-on-scroll">
+                <h2 class="font-poppins text-4xl md:text-5xl font-bold text-center mb-6 text-white animate-on-scroll">
                     PREMIUM ACCESS PACK
                 </h2>
                 
                 <div class="max-w-md mx-auto mb-12 animate-on-scroll">
-                    <ul class="space-y-4 font-inter text-lg">
+                    <ul class="space-y-4 font-inter text-lg text-gray-300">
                         <li class="flex items-center">
                             <svg class="w-6 h-6 text-accent mr-3" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
@@ -528,40 +530,40 @@
 
                 <div class="grid md:grid-cols-3 gap-8">
                     <!-- Weekly Plan -->
-                    <div class="pricing-card bg-gradient-to-br from-gray-50 to-white rounded-2xl p-8 border-2 border-gray-200 animate-on-scroll">
-                        <h3 class="font-poppins text-2xl font-bold mb-4">Weekly</h3>
+                    <div class="pricing-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border-2 border-gray-600 animate-on-scroll">
+                        <h3 class="font-poppins text-2xl font-bold mb-4 text-white">Weekly</h3>
                         <div class="mb-6">
                             <span class="text-5xl font-bold text-accent">€6.99</span>
-                            <span class="text-gray-600 font-inter">/week</span>
+                            <span class="text-gray-400 font-inter">/week</span>
                         </div>
-                        <a href="#upgrade-chat-link" class="block text-center bg-accent text-white py-3 rounded-full font-inter font-semibold hover:bg-opacity-90 transition-all">
+                        <a href="#upgrade-chat-link" class="block text-center bg-accent text-gray-900 py-3 rounded-full font-inter font-semibold hover:bg-opacity-90 transition-all">
                             Upgrade Now
                         </a>
                     </div>
 
                     <!-- Monthly Plan (Popular) -->
-                    <div class="pricing-card bg-gradient-to-br from-accent/10 to-white rounded-2xl p-8 border-2 border-accent animate-on-scroll transform scale-105">
-                        <div class="bg-accent text-white text-sm font-inter font-semibold px-3 py-1 rounded-full inline-block mb-4">
+                    <div class="pricing-card bg-gradient-to-br from-accent/20 to-gray-900 rounded-2xl p-8 border-2 border-accent animate-on-scroll transform scale-105">
+                        <div class="bg-accent text-gray-900 text-sm font-inter font-semibold px-3 py-1 rounded-full inline-block mb-4">
                             POPULAR
                         </div>
-                        <h3 class="font-poppins text-2xl font-bold mb-4">Monthly</h3>
+                        <h3 class="font-poppins text-2xl font-bold mb-4 text-white">Monthly</h3>
                         <div class="mb-6">
                             <span class="text-5xl font-bold text-accent">€19.99</span>
-                            <span class="text-gray-600 font-inter">/month</span>
+                            <span class="text-gray-400 font-inter">/month</span>
                         </div>
-                        <a href="#upgrade-chat-link" class="block text-center bg-accent text-white py-3 rounded-full font-inter font-semibold hover:bg-opacity-90 transition-all shadow-lg">
+                        <a href="#upgrade-chat-link" class="block text-center bg-accent text-gray-900 py-3 rounded-full font-inter font-semibold hover:bg-opacity-90 transition-all shadow-lg">
                             Upgrade Now
                         </a>
                     </div>
 
                     <!-- Lifetime Plan -->
-                    <div class="pricing-card bg-gradient-to-br from-gray-50 to-white rounded-2xl p-8 border-2 border-gray-200 animate-on-scroll">
-                        <h3 class="font-poppins text-2xl font-bold mb-4">Lifetime</h3>
+                    <div class="pricing-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border-2 border-gray-600 animate-on-scroll">
+                        <h3 class="font-poppins text-2xl font-bold mb-4 text-white">Lifetime</h3>
                         <div class="mb-6">
                             <span class="text-5xl font-bold text-accent">€59.99</span>
-                            <span class="text-gray-600 font-inter">/forever</span>
+                            <span class="text-gray-400 font-inter">/forever</span>
                         </div>
-                        <a href="#upgrade-chat-link" class="block text-center bg-accent text-white py-3 rounded-full font-inter font-semibold hover:bg-opacity-90 transition-all">
+                        <a href="#upgrade-chat-link" class="block text-center bg-accent text-gray-900 py-3 rounded-full font-inter font-semibold hover:bg-opacity-90 transition-all">
                             Upgrade Now
                         </a>
                     </div>
