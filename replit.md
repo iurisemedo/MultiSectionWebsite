@@ -15,7 +15,7 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
 
 ### Navigation Bar
 - Fixed top navigation with dark theme
-- "#1 FREE LEAKS" logo on the left
+- Custom lock logo image on the left
 - "Join Discord" and "Join Telegram" CTA buttons on the right
 - Smooth backdrop blur effect
 
