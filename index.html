@@ -437,7 +437,7 @@
     </section>
 
     <!-- Premium Pack Section -->
-    <section class="py-20 px-4 bg-gradient-to-b from-bg-primary to-bg-secondary">
+    <section id="premium-pack" class="py-20 px-4 bg-gradient-to-b from-bg-primary to-bg-secondary">
         <div class="max-w-6xl mx-auto">
             <h2 class="font-poppins text-4xl md:text-5xl font-bold text-center mb-6 text-white animate-on-scroll">
                 PREMIUM PACK
@@ -734,6 +734,34 @@
         document.addEventListener('keydown', (e) => {
             if (e.key === 'Escape') {
                 closePremiumModal();
+                closeEntryPopup();
+            }
+        });
+
+        // Entry Popup Functions
+        function openEntryPopup() {
+            const popup = document.getElementById('entryPopup');
+            popup.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeEntryPopup() {
+            const popup = document.getElementById('entryPopup');
+            popup.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Show entry popup 3 seconds after page load
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                openEntryPopup();
+            }, 3000);
+        });
+
+        // Close popup when clicking outside
+        document.getElementById('entryPopup').addEventListener('click', (e) => {
+            if (e.target.id === 'entryPopup') {
+                closeEntryPopup();
             }
         });
     </script>
