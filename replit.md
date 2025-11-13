@@ -26,12 +26,13 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
   - 4 columns on desktop
 - **Real-time search functionality** - filters models as you type
 - Each card includes:
-  - High-quality model image
+  - High-quality model image (full display, no cropping with `object-contain`)
   - Model name
   - Price in euros (€)
   - "Buy Now" action button
 - Hover effects with elevation and shadow
 - Scroll-triggered fade-in animations for each card
+- Images display completely without cropping, using dark letterbox background for consistency
 
 ### Premium Upgrade Modal
 - Accessible via navigation bar button
@@ -108,6 +109,10 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
     - Updated buttons, borders, and hover states
     - Modified pricing modal with dark gradients
     - Architect-reviewed and approved
+  - **Updated image display to show full photos without cropping**
+    - Changed from `object-cover` to `object-contain` 
+    - Added dark letterbox background for consistent framing
+    - All model images now display completely without cutting any parts
 
 ## Future Enhancements
 - Add actual payment integration (Stripe/PayPal)
