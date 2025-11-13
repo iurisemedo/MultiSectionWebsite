@@ -26,14 +26,15 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
 - Compact layout for quick user engagement
 
 ### Premium Access Pack Section
-- Dedicated section between hero and gallery
-- Displays three pricing tiers in compact grid:
+- Dedicated section below the model gallery
+- Displays three pricing tiers in symmetrical grid:
   - **Weekly**: €6.99/week
   - **Monthly**: €19.99/month (highlighted as "POPULAR")
   - **Lifetime**: €59.99 (one-time payment)
 - Clear value proposition: "Unlock unlimited access to all models + custom requests"
-- "Upgrade Now" button opens full premium modal
+- "Upgrade Now" buttons for each tier
 - Dark gradient backgrounds with accent highlights
+- Perfect symmetry with aligned heights and centered content
 - Responsive layout (stacks on mobile, grid on desktop)
 
 ### Model Gallery
@@ -109,7 +110,8 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
   - Makes development simpler but harder to maintain at scale
 
 ## Recent Changes
-- November 13, 2025: Initial website creation
+- November 13, 2025: 
+  - Initial website creation
   - Created complete single-file HTML structure
   - Implemented 30 model cards with real images from attached_assets
   - Added functional search bar with real-time filtering
@@ -128,6 +130,16 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
     - Changed from `object-cover` to `object-contain` 
     - Added dark letterbox background for consistent framing
     - All model images now display completely without cutting any parts
+  - **Removed "Buy Now" buttons from model cards**
+    - Simplified design to show only image and model name
+    - Cleaner, more minimal presentation
+  - **Added Discord and Telegram buttons to navigation bar**
+    - CTA buttons positioned on the right side of nav
+    - Removed standalone Premium Access button
+  - **Added Premium Access Pack section below model gallery**
+    - Shows three symmetrical pricing tiers (Weekly, Monthly, Lifetime)
+    - Perfect alignment with centered content
+    - "Upgrade Now" buttons for each tier
 
 ## Future Enhancements
 - Add actual payment integration (Stripe/PayPal)
