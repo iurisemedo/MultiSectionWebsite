@@ -85,6 +85,25 @@
             transform: scale(1.05);
             box-shadow: 0 15px 35px rgba(135, 206, 235, 0.2);
         }
+        
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+        }
+        
+        .faq-answer.active {
+            max-height: 500px;
+            padding-top: 1rem;
+        }
+        
+        .faq-icon {
+            transition: transform 0.3s ease;
+        }
+        
+        .faq-icon.active {
+            transform: rotate(180deg);
+        }
     </style>
 </head>
 <body>
@@ -531,6 +550,69 @@
         </div>
     </section>
 
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 px-4 bg-bg-primary">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="font-poppins text-4xl md:text-5xl font-bold text-center mb-12 text-white animate-on-scroll">
+                Frequently Asked Questions
+            </h2>
+
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="bg-bg-secondary rounded-2xl border border-gray-700 overflow-hidden animate-on-scroll">
+                    <button onclick="toggleFaq(1)" class="w-full flex justify-between items-center p-6 text-left hover:bg-gray-800/50 transition-colors">
+                        <h3 class="font-inter font-semibold text-lg text-white pr-8">What content will I receive upon purchase?</h3>
+                        <svg class="faq-icon w-6 h-6 text-accent flex-shrink-0" id="faq-icon-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-answer px-6 pb-0 text-gray-300 font-inter" id="faq-answer-1">
+                        <p>When you purchase access to a model, you will be immediately redirected to their private, dedicated Telegram channel. This channel contains all of their exclusive, full content library.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="bg-bg-secondary rounded-2xl border border-gray-700 overflow-hidden animate-on-scroll">
+                    <button onclick="toggleFaq(2)" class="w-full flex justify-between items-center p-6 text-left hover:bg-gray-800/50 transition-colors">
+                        <h3 class="font-inter font-semibold text-lg text-white pr-8">How frequently is the content updated?</h3>
+                        <svg class="faq-icon w-6 h-6 text-accent flex-shrink-0" id="faq-icon-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-answer px-6 pb-0 text-gray-300 font-inter" id="faq-answer-2">
+                        <p>You will receive the model's full OnlyFans content library, which is updated weekly to ensure you always have the latest leaks and media available.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="bg-bg-secondary rounded-2xl border border-gray-700 overflow-hidden animate-on-scroll">
+                    <button onclick="toggleFaq(3)" class="w-full flex justify-between items-center p-6 text-left hover:bg-gray-800/50 transition-colors">
+                        <h3 class="font-inter font-semibold text-lg text-white pr-8">How can I cancel my subscription?</h3>
+                        <svg class="faq-icon w-6 h-6 text-accent flex-shrink-0" id="faq-icon-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-answer px-6 pb-0 text-gray-300 font-inter" id="faq-answer-3">
+                        <p>Subscriptions are managed securely via our payment processor, Stripe, through the Upgrade Chat automation service. To cancel, simply access your original Upgrade Chat link or your Stripe customer portal and follow the prompts to manage or cancel your recurring payment.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="bg-bg-secondary rounded-2xl border border-gray-700 overflow-hidden animate-on-scroll">
+                    <button onclick="toggleFaq(4)" class="w-full flex justify-between items-center p-6 text-left hover:bg-gray-800/50 transition-colors">
+                        <h3 class="font-inter font-semibold text-lg text-white pr-8">How do I submit a Custom Model Request?</h3>
+                        <svg class="faq-icon w-6 h-6 text-accent flex-shrink-0" id="faq-icon-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-answer px-6 pb-0 text-gray-300 font-inter" id="faq-answer-4">
+                        <p>This feature is exclusive to Premium Pack members. If you have the Premium Pack, you gain access to all model channels plus a dedicated Admins Support Group where you can submit your custom model request directly to our team for fulfillment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Premium Modal -->
     <div id="premiumModal" class="modal">
         <div class="max-w-6xl mx-auto px-4 py-20">
@@ -799,6 +881,15 @@
                 closeEntryPopup();
             }
         });
+
+        // FAQ Accordion Toggle
+        function toggleFaq(id) {
+            const answer = document.getElementById(`faq-answer-${id}`);
+            const icon = document.getElementById(`faq-icon-${id}`);
+            
+            answer.classList.toggle('active');
+            icon.classList.toggle('active');
+        }
     </script>
 </body>
 </html>

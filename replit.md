@@ -45,6 +45,19 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
 - Perfect symmetry with aligned heights and centered content
 - Responsive layout (stacks on mobile, grid on desktop)
 
+### FAQ Section
+- Placed after Premium Pack section
+- Accordion-style design with 4 questions
+- Smooth expand/collapse animations
+- Questions covered:
+  - What content will I receive upon purchase?
+  - How frequently is the content updated?
+  - How can I cancel my subscription?
+  - How do I submit a Custom Model Request?
+- Scroll-triggered fade-in animations
+- Hover effects on question buttons
+- Light blue chevron icons that rotate on expand
+
 ### Model Gallery
 - **30 model cards** displayed in a responsive grid
   - 2 columns on mobile
@@ -158,6 +171,12 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
     - Each card now has a light blue button that scrolls to Premium Pack section
     - Consistent call-to-action across all models
     - Replaces hidden pricing structure for cleaner design
+  - **Added FAQ Section with accordion design**
+    - Placed after Premium Pack section
+    - 4 professionally written questions and answers
+    - Smooth expand/collapse animations with rotating chevron icons
+    - Scroll-triggered fade-in animations
+    - Hover effects for better user interaction
 
 ## Future Enhancements
 - Add actual payment integration (Stripe/PayPal)
