@@ -1,0 +1,92 @@
+Task: Create a complete, multi-section, high-conversion website in a single HTML file, utilizing Tailwind CSS for all styling. The site must be heavily optimized for mobile performance and user experience.
+
+1. Aesthetic and Style Guide
+Visual Style: Combine the clean, modern aesthetic of Apple's product pages (generous spacing, clear typography, smooth transitions) with a detailed model showcase structure inspired by megaleakz.net.
+
+Colors (Tailwind Classes):
+
+Background: #FAFAFA (Off-white).
+
+Primary Text: #000000 (Black).
+
+Accent/Button Color: #87CEEB (Light Blue).
+
+Typography:
+
+Headings (H1/H2): Use the Poppins Bold font.
+
+Body/Details: Use the Inter font.
+
+Layout: Must be fully responsive and mobile-first. Use Flexbox/Grid extensively.
+
+2. Section A: Hero Banner & Quick Access CTAs
+This section is the first thing users see upon entering the site.
+
+Top Heading (H1, Accent Color):
+
+"#1 FREE LEAKS"
+
+Secondary Heading (H2, Black Color):
+
+"Best prices on the market"
+
+Primary CTAs: Two prominent, rounded buttons placed immediately below the headings.
+
+Button 1: "Join Discord" (Placeholder link: #discord-link)
+
+Button 2: "Join Telegram" (Placeholder link: #telegram-link)
+
+Design Note: Use the Accent Color for button background.
+
+3. Section B: Model Gallery & Search Functionality
+This section displays individual models for purchase.
+
+Search Bar: Implement a responsive, functional search input positioned above the model gallery. This search bar should allow clients to dynamically filter the models listed below (using JavaScript).
+
+Model Grid: Create a responsive grid (2 columns on mobile, 4+ columns on desktop) to showcase the models.
+
+Model Card Structure (30 Placeholder Cards): Create 30 distinct placeholder model cards. Each card must include:
+
+Image Placeholder: A placeholder image (https://placehold.co/300x400/333333/FFFFFF?text=MODEL%20NAME) to represent the fixed images.
+
+Model Name: (Placeholder: "Model Name X")
+
+Price: (Placeholder: "€X.XX")
+
+Action Button: A prominent "Buy Now" button (Accent Color). (Placeholder link: #model-purchase-link)
+
+4. Section C: Premium Upgrade Page/Modal
+The site needs a dedicated mechanism (either a separate view state or a full-screen modal) accessible via a clear link/button (e.g., in a navbar or bottom banner) to present the Premium Pack.
+
+Premium Title: "PREMIUM ACCESS PACK"
+
+Features List: Clearly list the two main benefits:
+
+"Access to all of the models"
+
+"Custom model request"
+
+Pricing Tiers (3 Cards/Blocks): Present three distinct pricing options. Each option must have a dedicated action button.
+
+Weekly: €6.99
+
+Monthly: €19.99
+
+Lifetime: €59.99
+
+Action Buttons: Each tier button should say "Upgrade Now" and link to a placeholder upgrade chat (e.g., #upgrade-chat-link).
+
+5. Technical Functionality and Polish
+Single File Mandate: All HTML, Tailwind CSS (via CDN), and JavaScript MUST reside within the single index.html file.
+
+Smooth Scrolling: Implement JavaScript or CSS to ensure smooth scrolling navigation when links are clicked.
+
+Scroll Animations (The "Apple" Effect): Apply JavaScript logic (e.g., using an IntersectionObserver) to trigger smooth fade and slide-up animations (opacity and translateY) on the following elements as they enter the viewport:
+
+Hero Headings and CTAs.
+
+Each individual Model Card.
+
+Premium Pricing Tiers.
+
+Interactivity: Ensure the Search bar dynamically filters the model cards visible on the screen.
