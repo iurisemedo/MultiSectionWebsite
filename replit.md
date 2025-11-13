@@ -13,6 +13,13 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
 
 ## Features
 
+### Entry Popup
+- Automatic popup that appears 3 seconds after page load
+- Displays Premium Pack pricing with all three tiers
+- Close functionality via X button, clicking outside, or Escape key
+- "Upgrade Now" buttons scroll to Premium Pack section
+- Only shows once per visit to avoid annoying users
+
 ### Navigation Bar
 - Fixed top navigation with dark theme
 - Custom lock logo image on the left
@@ -140,6 +147,11 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
     - Shows three symmetrical pricing tiers (Weekly, Monthly, Lifetime)
     - Perfect alignment with centered content
     - "Upgrade Now" buttons for each tier
+  - **Added entry popup that appears 3 seconds after page load**
+    - Displays Premium Pack pricing tiers
+    - Auto-shows to capture visitor attention
+    - Multiple close options for user convenience
+    - Links to Premium Pack section on page
 
 ## Future Enhancements
 - Add actual payment integration (Stripe/PayPal)
