@@ -582,6 +582,75 @@
         </div>
     </div>
 
+    <!-- Entry Popup -->
+    <div id="entryPopup" class="modal">
+        <div class="max-w-4xl mx-auto px-4 py-20">
+            <div class="bg-bg-secondary rounded-3xl p-8 md:p-12 relative border border-gray-700 shadow-2xl">
+                <button onclick="closeEntryPopup()" class="absolute top-4 right-4 text-4xl text-gray-400 hover:text-accent w-10 h-10 flex items-center justify-center transition-colors">
+                    &times;
+                </button>
+                
+                <h2 class="font-poppins text-4xl md:text-5xl font-bold text-center mb-4 text-white">
+                    PREMIUM PACK
+                </h2>
+                <p class="text-center text-gray-300 text-lg mb-8 font-inter">
+                    All the Models Above + Custom Request
+                </p>
+
+                <div class="grid md:grid-cols-3 gap-6">
+                    <!-- Weekly Plan -->
+                    <div class="pricing-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-6 border-2 border-gray-600 flex flex-col">
+                        <div class="h-8 mb-3"></div>
+                        <h3 class="font-poppins text-xl font-bold mb-3 text-white text-center">Weekly</h3>
+                        <div class="mb-4 flex-grow flex flex-col justify-center">
+                            <div class="text-center">
+                                <div class="text-4xl font-bold text-accent">€6.99</div>
+                                <div class="text-gray-400 font-inter mt-1">/week</div>
+                            </div>
+                        </div>
+                        <a href="#premium-pack" onclick="closeEntryPopup()" class="block text-center bg-accent text-gray-900 py-2.5 rounded-full font-inter font-semibold hover:bg-opacity-90 transition-all">
+                            Upgrade Now
+                        </a>
+                    </div>
+
+                    <!-- Monthly Plan (Popular) -->
+                    <div class="pricing-card bg-gradient-to-br from-accent/20 to-gray-900 rounded-2xl p-6 border-2 border-accent flex flex-col">
+                        <div class="flex justify-center mb-3">
+                            <div class="bg-accent text-gray-900 text-xs font-inter font-semibold px-3 py-1 rounded-full">
+                                POPULAR
+                            </div>
+                        </div>
+                        <h3 class="font-poppins text-xl font-bold mb-3 text-white text-center">Monthly</h3>
+                        <div class="mb-4 flex-grow flex flex-col justify-center">
+                            <div class="text-center">
+                                <div class="text-4xl font-bold text-accent">€19.99</div>
+                                <div class="text-gray-400 font-inter mt-1">/month</div>
+                            </div>
+                        </div>
+                        <a href="#premium-pack" onclick="closeEntryPopup()" class="block text-center bg-accent text-gray-900 py-2.5 rounded-full font-inter font-semibold hover:bg-opacity-90 transition-all shadow-lg">
+                            Upgrade Now
+                        </a>
+                    </div>
+
+                    <!-- Lifetime Plan -->
+                    <div class="pricing-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-6 border-2 border-gray-600 flex flex-col">
+                        <div class="h-8 mb-3"></div>
+                        <h3 class="font-poppins text-xl font-bold mb-3 text-white text-center">Lifetime</h3>
+                        <div class="mb-4 flex-grow flex flex-col justify-center">
+                            <div class="text-center">
+                                <div class="text-4xl font-bold text-accent">€59.99</div>
+                                <div class="text-gray-400 font-inter mt-1">one-time</div>
+                            </div>
+                        </div>
+                        <a href="#premium-pack" onclick="closeEntryPopup()" class="block text-center bg-accent text-gray-900 py-2.5 rounded-full font-inter font-semibold hover:bg-opacity-90 transition-all">
+                            Upgrade Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Footer -->
     <footer class="bg-black text-white py-12 px-4 mt-20">
         <div class="max-w-7xl mx-auto text-center">
