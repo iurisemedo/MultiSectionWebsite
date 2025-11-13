@@ -40,7 +40,6 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
 - Each card includes:
   - High-quality model image (full display, no cropping with `object-contain`)
   - Model name
-  - Price in euros (€)
   - "Buy Now" action button
 - Hover effects with elevation and shadow
 - Scroll-triggered fade-in animations for each card
