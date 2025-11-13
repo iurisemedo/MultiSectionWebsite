@@ -31,7 +31,7 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
   - **Weekly**: €6.99/week
   - **Monthly**: €19.99/month (highlighted as "POPULAR")
   - **Lifetime**: €59.99 (one-time payment)
-- Clear value proposition: "Unlock unlimited access to all models + custom requests"
+- Clear value proposition: "All the Models Above + Custom Request"
 - "Upgrade Now" buttons for each tier
 - Dark gradient backgrounds with accent highlights
 - Perfect symmetry with aligned heights and centered content
