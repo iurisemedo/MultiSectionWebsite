@@ -39,18 +39,18 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
 - **Real-time search functionality** - filters models as you type
 - Each card includes:
   - High-quality model image (full display, no cropping with `object-contain`)
-  - Model name
-  - "Buy Now" action button
+  - Model name only (clean, minimal design)
 - Hover effects with elevation and shadow
 - Scroll-triggered fade-in animations for each card
 - Images display completely without cropping, using dark letterbox background for consistency
 
 ### Premium Upgrade Modal
 - Accessible via navigation bar button
-- Full-screen overlay modal with 3 pricing tiers:
+- Full-screen overlay modal with 3 symmetrical pricing tiers:
   - **Weekly**: €6.99/week
   - **Monthly**: €19.99/month (highlighted as "POPULAR")
   - **Lifetime**: €59.99 (one-time payment)
+- Perfect symmetry with aligned heights and centered content
 - Features list:
   - Access to all models
   - Custom model requests
