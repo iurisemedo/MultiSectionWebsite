@@ -28,7 +28,7 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
 - Smooth backdrop blur effect
 
 ### Hero Section
-- Large, bold "#1 FREE LEAKS" heading in accent color (#87CEEB)
+- Large, bold "#1 LEAKS PROVIDER" heading in accent color (#87CEEB)
 - "Best prices on the market" subheading
 - Smooth fade-in and slide-up animations on scroll
 - Compact layout for quick user engagement
