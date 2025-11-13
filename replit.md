@@ -25,7 +25,7 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
 - Smooth fade-in and slide-up animations on scroll
 - Compact layout for quick user engagement
 
-### Premium Access Pack Section
+### Premium Pack Section
 - Dedicated section below the model gallery
 - Displays three pricing tiers in symmetrical grid:
   - **Weekly**: €6.99/week
