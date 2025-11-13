@@ -1,7 +1,7 @@
 # #1 FREE LEAKS - Model Showcase Website
 
 ## Overview
-A high-conversion, single-page model showcase website built with Tailwind CSS, featuring a clean Apple-inspired design aesthetic with smooth animations and mobile-first responsive layout.
+A high-conversion, single-page model showcase website built with Tailwind CSS, featuring a sleek Apple-inspired dark theme design with smooth animations and mobile-first responsive layout.
 
 ## Project Structure
 ```
@@ -48,12 +48,17 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
 ## Technical Implementation
 
 ### Design System
-- **Background**: #FAFAFA (off-white)
-- **Primary Text**: #000000 (black)
+**Dark Theme Color Palette:**
+- **Background**: #0F172A (dark slate)
+- **Card/Surface**: #1E293B (lighter slate)
+- **Primary Text**: #FFFFFF (white)
+- **Secondary Text**: #D1D5DB / #9CA3AF (light gray)
 - **Accent Color**: #87CEEB (light blue)
-- **Fonts**:
-  - Headings: Poppins Bold
-  - Body: Inter (400, 500, 600 weights)
+- **Borders**: #374151 (gray-700)
+
+**Typography:**
+- **Headings**: Poppins Bold
+- **Body**: Inter (400, 500, 600 weights)
 
 ### Technology Stack
 - **HTML5** - Semantic markup
@@ -96,6 +101,13 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
   - Created premium pricing modal with 3 tiers
   - Fixed image path issues for special character filenames
   - Configured workflow to serve on port 5000
+  - **Converted entire design to dark theme** with Apple-inspired aesthetics
+    - Updated all backgrounds to dark slate (#0F172A)
+    - Updated cards and surfaces to lighter slate (#1E293B)
+    - Adjusted all text colors for optimal contrast
+    - Updated buttons, borders, and hover states
+    - Modified pricing modal with dark gradients
+    - Architect-reviewed and approved
 
 ## Future Enhancements
 - Add actual payment integration (Stripe/PayPal)
