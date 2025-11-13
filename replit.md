@@ -52,7 +52,8 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
 - **Real-time search functionality** - filters models as you type
 - Each card includes:
   - High-quality model image (full display, no cropping with `object-contain`)
-  - Model name only (clean, minimal design)
+  - Model name
+  - "Access Now" button that scrolls to Premium Pack section
 - Hover effects with elevation and shadow
 - Scroll-triggered fade-in animations for each card
 - Images display completely without cropping, using dark letterbox background for consistency
@@ -152,6 +153,10 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
     - Auto-shows to capture visitor attention
     - Multiple close options for user convenience
     - Links to Premium Pack section on page
+  - **Added "Access Now" buttons to all 30 model cards**
+    - Each card now has a light blue button that scrolls to Premium Pack section
+    - Consistent call-to-action across all models
+    - Replaces hidden pricing structure for cleaner design
 
 ## Future Enhancements
 - Add actual payment integration (Stripe/PayPal)
