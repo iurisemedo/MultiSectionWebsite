@@ -50,7 +50,7 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
 - Accordion-style design with 4 questions
 - Smooth expand/collapse animations
 - Questions covered:
-  - What content will I receive upon purchase?
+  - What content will I receive?
   - How frequently is the content updated?
   - How can I cancel my subscription?
   - How do I submit a Custom Model Request?
