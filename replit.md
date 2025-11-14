@@ -214,6 +214,13 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
     - Renamed image from special characters filename to ASCII-only: camilla_araujo_1763143462791.jpg
     - Resolved 404 errors caused by URL encoding issues with parentheses and quotes
     - Image now loads successfully with HTTP 200
+  - **Improved hero section spacing for mobile (mobile-only, max-width: 768px)**
+    - Desktop version remains completely untouched
+    - Mobile improvements:
+      - Reduced line-height on h1 (1.1) and h2 (1.2) for tighter text
+      - Reduced margin between headings (0.75rem instead of 1.5rem)
+      - Reduced top padding (6rem instead of 8rem)
+      - More compact, readable hero on small screens
 
 ## Future Enhancements
 - Add actual payment integration (Stripe/PayPal)
