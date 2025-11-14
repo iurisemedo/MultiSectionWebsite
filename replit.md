@@ -210,6 +210,10 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
       - Scrollable content with max-height to prevent viewport overflow
       - Popup pulled toward top with padding-top: 2rem
       - Better spacing and readability on mobile devices
+  - **Fixed Camilla Araujo image filename issue**
+    - Renamed image from special characters filename to ASCII-only: camilla_araujo_1763143462791.jpg
+    - Resolved 404 errors caused by URL encoding issues with parentheses and quotes
+    - Image now loads successfully with HTTP 200
 
 ## Future Enhancements
 - Add actual payment integration (Stripe/PayPal)
