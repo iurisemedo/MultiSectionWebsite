@@ -221,13 +221,13 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
       - Reduced margin between headings (0.75rem instead of 1.5rem)
       - Reduced top padding (6rem instead of 8rem)
       - More compact, readable hero on small screens
-  - **Reduced spacing between Gallery and Premium Pack on mobile (mobile-only, max-width: 768px)**
+  - **Reduced top space in Premium Pack pricing boxes on mobile (mobile-only, max-width: 768px)**
     - Desktop version remains completely untouched
     - Mobile improvements:
-      - Reduced gallery bottom padding from 5rem to 2rem
-      - Reduced Premium Pack top padding from 5rem to 2rem
-      - Total space between sections reduced from 10rem to 4rem
-      - Much tighter, more compact layout on mobile devices
+      - Reduced pricing card top padding from 2rem to 1.25rem
+      - Reduced top spacer height from 2rem to 0.5rem
+      - Reduced top spacer margin from 1rem to 0.75rem
+      - Much tighter, more compact boxes on mobile devices
 
 ## Future Enhancements
 - Add actual payment integration (Stripe/PayPal)

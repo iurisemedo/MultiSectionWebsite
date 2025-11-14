@@ -154,13 +154,14 @@
                 line-height: 1.2;
             }
             
-            /* Mobile-only styles to reduce space between Gallery and Premium Pack */
-            #gallery {
-                padding-bottom: 2rem;
+            /* Mobile-only styles to reduce top space in Premium Pack pricing boxes */
+            #premium-pack .pricing-card {
+                padding-top: 1.25rem;
             }
             
-            #premium-pack {
-                padding-top: 2rem;
+            #premium-pack .pricing-spacer {
+                height: 0.5rem;
+                margin-bottom: 0.75rem;
             }
         }
     </style>
@@ -530,7 +531,7 @@
             <div class="grid md:grid-cols-3 gap-8">
                 <!-- Weekly Plan -->
                 <div class="pricing-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border-2 border-gray-600 animate-on-scroll flex flex-col">
-                    <div class="h-8 mb-4"></div>
+                    <div class="pricing-spacer h-8 mb-4"></div>
                     <h3 class="font-poppins text-2xl font-bold mb-4 text-white text-center">Weekly</h3>
                     <div class="mb-6 flex-grow flex flex-col justify-center">
                         <div class="text-center">
@@ -564,7 +565,7 @@
 
                 <!-- Lifetime Plan -->
                 <div class="pricing-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border-2 border-gray-600 animate-on-scroll flex flex-col">
-                    <div class="h-8 mb-4"></div>
+                    <div class="pricing-spacer h-8 mb-4"></div>
                     <h3 class="font-poppins text-2xl font-bold mb-4 text-white text-center">Lifetime</h3>
                     <div class="mb-6 flex-grow flex flex-col justify-center">
                         <div class="text-center">
@@ -675,7 +676,7 @@
                 <div class="grid md:grid-cols-3 gap-8">
                     <!-- Weekly Plan -->
                     <div class="pricing-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border-2 border-gray-600 animate-on-scroll flex flex-col">
-                        <div class="h-8 mb-4"></div>
+                        <div class="pricing-spacer h-8 mb-4"></div>
                         <h3 class="font-poppins text-2xl font-bold mb-4 text-white text-center">Weekly</h3>
                         <div class="mb-6 flex-grow flex flex-col justify-center">
                             <div class="text-center">
@@ -709,7 +710,7 @@
 
                     <!-- Lifetime Plan -->
                     <div class="pricing-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border-2 border-gray-600 animate-on-scroll flex flex-col">
-                        <div class="h-8 mb-4"></div>
+                        <div class="pricing-spacer h-8 mb-4"></div>
                         <h3 class="font-poppins text-2xl font-bold mb-4 text-white text-center">Lifetime</h3>
                         <div class="mb-6 flex-grow flex flex-col justify-center">
                             <div class="text-center">
@@ -747,7 +748,7 @@
                 <div class="grid md:grid-cols-3 gap-6">
                     <!-- Weekly Plan -->
                     <div class="pricing-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-6 border-2 border-gray-600 flex flex-col">
-                        <div class="h-8 mb-3"></div>
+                        <div class="pricing-spacer h-8 mb-3"></div>
                         <h3 class="font-poppins text-xl font-bold mb-3 text-white text-center">Weekly</h3>
                         <div class="mb-4 flex-grow flex flex-col justify-center">
                             <div class="text-center">
@@ -781,7 +782,7 @@
 
                     <!-- Lifetime Plan -->
                     <div class="pricing-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-6 border-2 border-gray-600 flex flex-col">
-                        <div class="h-8 mb-3"></div>
+                        <div class="pricing-spacer h-8 mb-3"></div>
                         <h3 class="font-poppins text-xl font-bold mb-3 text-white text-center">Lifetime</h3>
                         <div class="mb-4 flex-grow flex flex-col justify-center">
                             <div class="text-center">
