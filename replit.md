@@ -180,9 +180,9 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
     - Hover effects for better user interaction
   - **Expanded gallery to 28 unique model cards**
     - Initially reduced from 30 to 15 by removing duplicates
-    - Added 12 new unique models, then added Viking Barbie
+    - Added 12 new unique models, then added Camilla Araujo
     - All 28 images are unique with no repetition
-    - Includes models: Hot4lexi, Katie Sigmond, Katiana Kay, Iggy Azalea, Ash Kash, Corinna Kopf, Aisha Sofey, Breckie Hill, Ari Kytsya, Amouranth, Karely Ruiz, Izzy Green, Livvy Dunne, Julia Filipo, Alice Rosenblum, McKinley Richardson, Lil Tay, Lana Cherry, Lena the Plug, Megnutt, Melimtx, Mikaela Testa, Rubi Rose, Sky Bri, Sava Schultz, Sophie Rain, Vietbunny, Viking Barbie
+    - Includes models: Hot4lexi, Katie Sigmond, Katiana Kay, Iggy Azalea, Ash Kash, Corinna Kopf, Aisha Sofey, Breckie Hill, Ari Kytsya, Amouranth, Karely Ruiz, Izzy Green, Livvy Dunne, Julia Filipo, Alice Rosenblum, McKinley Richardson, Lil Tay, Lana Cherry, Lena the Plug, Megnutt, Melimtx, Mikaela Testa, Rubi Rose, Sky Bri, Sava Schultz, Sophie Rain, Vietbunny, Camilla Araujo
 
 - November 14, 2025:
   - **Changed hero heading from "#1 LEAKS PROVIDER" to "Access to +50 OF Models"**
@@ -190,9 +190,12 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
   - **Removed Discord and Telegram buttons from navigation bar**
     - Navigation now shows only logo
     - Cleaner, more minimal design
-  - **Added Viking Barbie as 28th model**
+  - **Added Camilla Araujo as 28th model**
     - New model card with image and Access Now button
     - Searchable in gallery
+  - **Reordered models to prioritize top performers**
+    - First 4 models now: Sophie Rain, Lil Tay, Breckie Hill, Ari Kytsya
+    - Remaining 24 models follow in existing order
 
 ## Future Enhancements
 - Add actual payment integration (Stripe/PayPal)
