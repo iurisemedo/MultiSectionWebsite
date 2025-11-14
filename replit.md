@@ -178,12 +178,21 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
     - Smooth expand/collapse animations with rotating chevron icons
     - Scroll-triggered fade-in animations
     - Hover effects for better user interaction
-  - **Expanded gallery to 27 unique model cards**
+  - **Expanded gallery to 28 unique model cards**
     - Initially reduced from 30 to 15 by removing duplicates
-    - Added 12 new unique models as requested
-    - All 27 images are unique with no repetition
-    - Updated entry popup text to show "+27 OF Models"
-    - Includes models: Emma, Olivia, Ava, Isabella, Mia, Charlotte, Amelia, Evelyn, Luna, Scarlett, Madison, Layla, Zoe, Grace, Victoria, Sophia, Harper, Aria, Lily, Chloe, Natalie, Ruby, Aurora, Hazel, Willow, Violet, Penelope
+    - Added 12 new unique models, then added Viking Barbie
+    - All 28 images are unique with no repetition
+    - Includes models: Hot4lexi, Katie Sigmond, Katiana Kay, Iggy Azalea, Ash Kash, Corinna Kopf, Aisha Sofey, Breckie Hill, Ari Kytsya, Amouranth, Karely Ruiz, Izzy Green, Livvy Dunne, Julia Filipo, Alice Rosenblum, McKinley Richardson, Lil Tay, Lana Cherry, Lena the Plug, Megnutt, Melimtx, Mikaela Testa, Rubi Rose, Sky Bri, Sava Schultz, Sophie Rain, Vietbunny, Viking Barbie
+
+- November 14, 2025:
+  - **Changed hero heading from "#1 LEAKS PROVIDER" to "Access to +50 OF Models"**
+    - Updated main hero text to match marketing message
+  - **Removed Discord and Telegram buttons from navigation bar**
+    - Navigation now shows only logo
+    - Cleaner, more minimal design
+  - **Added Viking Barbie as 28th model**
+    - New model card with image and Access Now button
+    - Searchable in gallery
 
 ## Future Enhancements
 - Add actual payment integration (Stripe/PayPal)
