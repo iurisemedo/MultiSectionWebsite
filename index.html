@@ -105,6 +105,40 @@
         .faq-icon.active {
             transform: rotate(180deg);
         }
+        
+        /* Mobile-only styles for Entry Popup */
+        @media (max-width: 768px) {
+            #entryPopup.modal.active {
+                align-items: flex-start;
+                padding-top: 2rem;
+            }
+            
+            #entryPopup > div {
+                width: calc(100% - 2rem);
+                margin: 2rem auto;
+                padding: 1.5rem 1rem;
+            }
+            
+            #entryPopup > div > div {
+                padding: 1.5rem;
+                max-height: calc(100vh - 5rem);
+                overflow-y: auto;
+            }
+            
+            #entryPopup h2 {
+                font-size: 1.875rem;
+                line-height: 2.25rem;
+            }
+            
+            #entryPopup .grid {
+                grid-template-columns: 1fr;
+                gap: 1.25rem;
+            }
+            
+            #entryPopup .pricing-card {
+                padding: 1.25rem;
+            }
+        }
     </style>
 </head>
 <body>

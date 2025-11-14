@@ -196,6 +196,20 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
   - **Reordered models to prioritize top performers**
     - First 4 models now: Sophie Rain, Lil Tay, Breckie Hill, Ari Kytsya
     - Remaining 24 models follow in existing order
+  - **Changed hero text back to "#1 LEAKS PROVIDER"**
+    - Reverted from "Access to +50 OF Models"
+  - **Replaced Viking Barbie with Camilla Araujo**
+    - Updated model card with new image
+  - **Added mobile-optimized entry popup (mobile-only, max-width: 768px)**
+    - Desktop version remains completely untouched
+    - Mobile improvements:
+      - Narrower container width (calc(100% - 2rem))
+      - Reduced padding for better fit on small screens
+      - Smaller heading font size (1.875rem)
+      - Single-column layout for pricing tiers
+      - Scrollable content with max-height to prevent viewport overflow
+      - Popup pulled toward top with padding-top: 2rem
+      - Better spacing and readability on mobile devices
 
 ## Future Enhancements
 - Add actual payment integration (Stripe/PayPal)
