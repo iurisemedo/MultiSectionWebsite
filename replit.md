@@ -15,7 +15,7 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
 
 ### Entry Popup
 - Automatic popup that appears 3 seconds after page load
-- Displays "Access to +27 OF Models" with subline "(Content Updated Every Week)"
+- Displays "Access to +50 OF Models" with subline "(Content Updated Every Week)"
 - Shows Premium Pack pricing with all three tiers
 - Close functionality via X button, clicking outside, or Escape key
 - "Upgrade Now" buttons scroll to Premium Pack section
