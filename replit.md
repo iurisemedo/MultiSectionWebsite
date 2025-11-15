@@ -232,6 +232,10 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
     - Updated button text in Premium Pack section, Premium Modal, and Entry Popup
     - Consistent call-to-action across all pricing tiers
     - Maintains brand consistency with model card buttons
+  - **Removed footer section**
+    - Removed footer with Discord, Telegram, Premium links
+    - Cleaner, more minimal design
+    - Website ends with FAQ section
 
 ## Future Enhancements
 - Add actual payment integration (Stripe/PayPal)
