@@ -24,8 +24,16 @@ A high-conversion, single-page model showcase website built with Tailwind CSS, f
 ### Navigation Bar
 - Fixed top navigation with dark theme
 - Custom lock logo image on the left
-- "Join Discord" and "Join Telegram" CTA buttons on the right
+- "Preview" button on the right that opens a video preview modal
 - Smooth backdrop blur effect
+
+### Video Preview Modal
+- Opens when clicking "Preview" button in navigation
+- Displays promotional video in a centered modal
+- Large X button to close the video
+- Video auto-plays when modal opens
+- Video pauses and resets when modal closes
+- Multiple close options: X button, click outside, or Escape key
 
 ### Hero Section
 - Large, bold "#1 LEAKS PROVIDER" heading in accent color (#87CEEB)
