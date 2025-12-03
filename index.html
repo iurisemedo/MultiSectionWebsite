@@ -106,11 +106,25 @@
             transform: rotate(180deg);
         }
         
+        /* Ensure Preview button is always visible */
+        nav button {
+            display: inline-flex !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+        }
+        
         /* Mobile-only styles for Entry Popup */
         @media (max-width: 768px) {
             #entryPopup.modal.active {
                 align-items: flex-start;
                 padding-top: 2rem;
+            }
+            
+            /* Ensure Preview button stays visible on mobile */
+            nav .flex.items-center button {
+                display: inline-flex !important;
+                padding: 0.375rem 0.75rem;
+                font-size: 0.75rem;
             }
             
             #entryPopup > div {
