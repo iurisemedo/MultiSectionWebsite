@@ -260,6 +260,80 @@
                 border-radius: 1rem;
             }
         }
+        
+        /* Video Preview Close Button - Responsive */
+        .preview-close {
+            position: absolute;
+            top: -3rem;
+            right: 0;
+            width: 2.75rem;
+            height: 2.75rem;
+            display: grid;
+            place-items: center;
+            border-radius: 9999px;
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(6px);
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .preview-close:hover {
+            background: rgba(135, 206, 235, 0.3);
+        }
+        
+        .preview-close svg {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+        
+        /* Tablet and small laptops */
+        @media (max-width: 768px) {
+            .preview-close {
+                top: -2.75rem;
+                right: 0;
+                width: 2.75rem;
+                height: 2.75rem;
+                min-width: 44px;
+                min-height: 44px;
+            }
+            
+            .preview-close svg {
+                width: 1.25rem;
+                height: 1.25rem;
+            }
+        }
+        
+        /* Medium phones (375px - 480px) */
+        @media (max-width: 480px) {
+            .preview-close {
+                top: -2.5rem;
+                right: 0;
+                width: 2.5rem;
+                height: 2.5rem;
+                min-width: 44px;
+                min-height: 44px;
+            }
+            
+            .preview-close svg {
+                width: 1.125rem;
+                height: 1.125rem;
+            }
+        }
+        
+        /* Small phones (under 375px) */
+        @media (max-width: 375px) {
+            .preview-close {
+                top: -2.25rem;
+                right: 0;
+                width: 44px;
+                height: 44px;
+            }
+            
+            .preview-close svg {
+                width: 1rem;
+                height: 1rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -282,8 +356,8 @@
     <!-- Video Preview Modal -->
     <div id="videoPreviewModal" class="modal">
         <div class="preview-shell relative">
-            <button onclick="closeVideoPreview()" class="absolute -top-10 right-0 text-white hover:text-accent transition-colors z-10">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <button onclick="closeVideoPreview()" class="preview-close text-white hover:text-accent z-10">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                 </svg>
             </button>
